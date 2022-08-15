@@ -108,3 +108,4 @@ console.log('setA is subset of B -> '+setA.subset(setB));
 console.log('setB is subset of A -> '+setB.subset(setA));
 
 console.log(setA.has('k'));
+console.log(setB.has('k'));
