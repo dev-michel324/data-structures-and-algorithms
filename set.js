@@ -1,4 +1,4 @@
-class Set{
+class MySet{
 	constructor(){
 		this.collection = [];
 	}
@@ -77,8 +77,8 @@ class Set{
 	}
 }
 
-let setA = new Set();
-let setB = new Set();
+let setA = new MySet();
+let setB = new MySet();
 
 setA.add('a');
 setA.add('b');
